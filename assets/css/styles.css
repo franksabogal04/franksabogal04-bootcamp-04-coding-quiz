@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+#top-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-choice {
+    align-self: flex-start;
+}
+
+button,
+input[type="submit"] {
+    background-color: aquamarine;
+    border-radius: 3px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* highscore list */
+li {
+    list-style: none;
+    margin: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+}
